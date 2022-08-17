@@ -430,7 +430,7 @@ const player = document.querySelector('.player');
 const state = {
   language: 'en',
   photoSource: 'github',
-  blocks: [timeBoard, dateBoard, greetingText, name, footer, weather, player]
+  blocks: [timeBoard, dateBoard, greetingText, name, footer, weather]
 }
 
 const onOff = document.querySelectorAll('.on-off');
