@@ -39,7 +39,7 @@ const switchingLanguages = () => {
       } else {
         lang = 'en';
       }
-      location.href = `${window.location.pathname}#${lang}`;
+      // location.href = `${window.location.pathname}#${lang}`;
       getWeather();
       getQuotes();
       placeHolderChange();
@@ -109,9 +109,9 @@ const placeHolderChange = () => {
 placeHolderChange();
 
 const setLocalStorage = () => {
-  lang = window.location.hash.substring(1);
+  // lang = window.location.hash.substring(1);
   localStorage.setItem('name', name.value);
-  localStorage.setItem('lang', lang);
+  // localStorage.setItem('lang', lang);
   localStorage.setItem('city', city.value);
 }
 window.addEventListener('beforeunload', setLocalStorage);
@@ -123,14 +123,14 @@ const getLocalStorage = () => {
   if (localStorage.getItem('city')) {
     city.value = localStorage.getItem('city');
   }
-  if (localStorage.getItem('lang') === 'en') {
-    btnLanguagesBe.classList.remove('active');
-    btnLanguagesEn.classList.add('active');
-  }
-    lang = localStorage.getItem('lang');
-    getWeather();
-    getQuotes();
-    placeHolderChange();
+  // if (localStorage.getItem('lang') === 'en') {
+  //   btnLanguagesBe.classList.remove('active');
+  //   btnLanguagesEn.classList.add('active');
+  // }
+  //   lang = localStorage.getItem('lang');
+  //   getWeather();
+  //   getQuotes();
+  //   placeHolderChange();
 }
 window.addEventListener('load', getLocalStorage);
 
