@@ -1,0 +1,106 @@
+[ 
+  {
+    "be": [
+      {
+        "text": "Быть естественным – это поза, которую труднее всего удержать.",
+        "author": "Оскар Уайльд"
+      },
+      {
+        "text": "Никогда не знаете, что такое жизнь, пока не проживёте её.",
+        "author": "Мерилин Монро"
+      },
+      {
+        "text": "Успех — это способность идти от одной неудачи к другой без потери энтузиазма.",
+        "author": "Уинстон Черчилль"
+      },
+      {
+        "text": "Пари как бабочка, жаль как пчела.",
+        "author": "Мухаммед Али"
+      },
+      {
+        "text": "Характер человека может быть изучен из прилагательных, которые он обычно использует в разговоре.",
+        "author": "Марк Твен"
+      },
+      {
+        "text": "Я ничего не могу знать с уверенностью, но вид звезд заставляет меня мечтать.",
+        "author": "Ван Гог"
+      },
+      {
+        "text": "Есть люди, у которых есть деньги, и люди, которые богаты.",
+        "author": "Коко Шанель"
+      },
+      {
+        "text": " Инновация отделяет лидера от последователя.",
+        "author": "Стив Джобс"
+      },
+      {
+        "text": "Воображение более важно, чем знания. Знания ограничены. Воображение охватывает весь мир.",
+        "author": "Альберт Эйнштейн"
+      },
+      {
+        "text": "Образование — это то, что остается, когда все выученное в школе забывается.",
+        "author": "Альберт Эйнштейн"
+      },
+      {
+        "text": "Лишь враги говорят правду; друзья и партнеры лгут бесконечно, пойманные в паутину обязанностей и долга.",
+        "author": "Стивен Кинг"
+      },
+      {
+        "text": "То, что не убивает нас, делает нас сильнее.",
+        "author": "Фридрих Ницше"
+      }
+    ],
+    "en": [
+      {
+        "text": "To be natural is such a very difficult pose to keep up.",
+        "author": "Oscar Wilde"
+      },
+      {
+        "text": "You never know what life is like, until you have lived it.", 
+        "author": "Marilyn Monroe"
+      },
+      {
+        "text": "Success is the ability to go from one failure to another with no loss of thusiasm.",    
+        "author": "Winston Churchill"
+      },
+      {
+        "text": "Float like a butterfly, sting like a bee.",
+        "author": "Muhammad Ali"
+      },
+      {
+        "text": "A man’s character may be learned from the adjectives which he habitually uses in conversation.",    
+        "author": "Mark Twain"
+      },
+      {
+        "text": "I don’t know anything with certainty, but seeing the stars makes me dream.", 
+        "author": "Vinct Willem van Gogh"
+      },
+      {
+        "text": "There are people who have money and people who are rich.",   
+        "author": "Coco Chanel"
+      },
+      {
+        "text": "Innovation distinguishes betwe a leader and a follower.",
+        "author": "Steve Jobs"
+      },
+      {
+        "text": "Imagination is more important than knowledge. Knowledge is limited. Imagination circles the world.",
+        "author": "Albert Einstein"
+      },
+      {
+        
+        "text": "Education is what remains after one has forgott what one has learned in school.",   
+        "author": "Albert Einstein"
+      },
+      {
+         
+        "text": "Only emies speak the tth; frids and lovers lie dlessly, caught in the web of duty.",  
+        "author": "Steph Edwin King"
+      },
+      {
+        "text": "That which does not kill us makes us stronger.", 
+        "author": "Friedrich Nietzsche"
+      }
+    ]
+  }
+]

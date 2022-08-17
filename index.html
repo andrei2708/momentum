@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="assets/favicon.ico" rel="shortcut icon" />
+  <!-- <link rel="stylesheet" href="css/owfont-regular.css" /> -->
+  <link rel="stylesheet" href="css/style.css" />
+  <title>momentum</title>
+</head>
+<body>
+  <header class="header">
+    <div class="player">
+      <div class="player-controls">
+        <button class="play-prev player-icon"></button>
+        <button class="play player-icon"></button>
+        <button class="play-next player-icon"></button>
+      </div>
+      <ul class="play-list"></ul>
+    </div>
+    <div class="weather">
+      <input type="text" class="city" value="Minsk"/>
+      <div class="weather-icon"></div>
+      <div class="weather-error"></div>
+      <div class="description-container">
+        <span class="temperature"></span>
+        <span class="weather-description"></span>
+      </div>
+      <div class="feels"></div>
+      <div class="wind"></div>
+      <div class="humidity"></div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="slider-icons">
+      <button class="slide-prev slider-icon"></button>
+      <button class="slide-next slider-icon"></button>
+    </div>
+    <time class="time"></time>
+    <date class="date"></date>
+    <div class="greeting-container">
+      <span class="greeting"></span>
+      <input type="text" class="name" placeholder="[Enter name]" />
+    </div>
+  </main>
+  <footer class="footer">
+    <button class="change-quote"></button>
+    <div>
+      <div class="quote"></div>
+      <div class="author"></div>
+    </div>
+  </footer>
+  <button class="setting-button">
+    <img src="assets/svg/setting-icon.svg" alt="setting" class="setting-icon">
+  </button>
+  <div class="setting">
+    <div class="setting-container">
+      <div class="languages-button">
+        <button class="lang lang-be active">BE</button>
+        <button class="lang lang-en">EN</button>
+      </div>
+      <div class="temp-button">
+        <button class="temp temp-c active">°С</button>
+        <button class="temp temp-f">°F</button>
+      </div>
+      <div class="disable-setting">
+        <label class="switch">
+          <input type="checkbox" class="on-off" checked>
+          <span class="slider round"></span>
+          <span class="absolute-no">TIME</span>
+        </label>
+        <label class="switch">
+          <input type="checkbox" class="on-off" checked>
+          <span class="slider round"></span>
+          <span class="absolute-no">DATE</span>
+        </label>
+        <label class="switch">
+          <input type="checkbox" class="on-off" checked>
+          <span class="slider round"></span>
+          <span class="absolute-no">greeting</span>
+        </label>
+        <label class="switch">
+          <input type="checkbox" class="on-off" checked>
+          <span class="slider round"></span>
+          <span class="absolute-no">name</span>
+        </label>
+        <label class="switch">
+          <input type="checkbox" class="on-off" checked>
+          <span class="slider round"></span>
+          <span class="absolute-no">quote</span>
+        </label>
+        <label class="switch">
+          <input type="checkbox" class="on-off" checked>
+          <span class="slider round"></span>
+          <span class="absolute-no">weather</span>
+        </label>
+        <label class="switch">
+          <input type="checkbox" class="on-off" checked>
+          <span class="slider round"></span>
+          <span class="absolute-no">player</span>
+        </label>
+      </div>
+    </div>
+  </div>
+  <div class="hidden"></div>
+  <script type="module" src="./js/script.js"></script>
+  
+</body>
+</html>
